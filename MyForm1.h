@@ -170,6 +170,7 @@ namespace Project2 {
 			this->confirm->Name = L"confirm";
 			this->confirm->Size = System::Drawing::Size(278, 27);
 			this->confirm->TabIndex = 13;
+			this->confirm->MaskInputRejected += gcnew System::Windows::Forms::MaskInputRejectedEventHandler(this, &MyForm1::confirm_MaskInputRejected);
 			this->confirm->KeyDown += gcnew System::Windows::Forms::KeyEventHandler(this, &MyForm1::confirm_KeyDown);
 			// 
 			// panel1
@@ -283,6 +284,8 @@ private: System::Void confirm_KeyDown(System::Object^ sender, System::Windows::F
 		next->PerformClick();
 }
 private: System::Void newnum_MaskInputRejected(System::Object^ sender, System::Windows::Forms::MaskInputRejectedEventArgs^ e) {
+}
+private: System::Void confirm_MaskInputRejected(System::Object^ sender, System::Windows::Forms::MaskInputRejectedEventArgs^ e) {
 }
 };
 }

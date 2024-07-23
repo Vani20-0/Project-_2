@@ -1,0 +1,25 @@
+﻿  MyForm.cpp
+C:\Users\TUF A15\source\repos\Project2\Project2\MyForm4.h(137,16): error C2146: syntax error: missing ';' before identifier 'response'
+C:\Users\TUF A15\source\repos\Project2\Project2\MyForm4.h(137,16): error C2065: 'response': undeclared identifier
+C:\Users\TUF A15\source\repos\Project2\Project2\MyForm4.h(138,7): error C2065: 'response': undeclared identifier
+C:\Users\TUF A15\source\repos\Project2\Project2\MyForm4.h(138,31): error C2039: 'OK': is not a member of 'System::Windows::Forms::Form::DialogResult'
+C:\Users\TUF A15\source\repos\Project2\Project2\MyForm4.h(138,31): error C2065: 'OK': undeclared identifier
+  MyForm2.cpp
+C:\Users\TUF A15\source\repos\Project2\Project2\MyForm4.h(137,16): error C2146: syntax error: missing ';' before identifier 'response'
+C:\Users\TUF A15\source\repos\Project2\Project2\MyForm4.h(137,16): error C2065: 'response': undeclared identifier
+C:\Users\TUF A15\source\repos\Project2\Project2\MyForm4.h(138,7): error C2065: 'response': undeclared identifier
+C:\Users\TUF A15\source\repos\Project2\Project2\MyForm4.h(138,31): error C2039: 'OK': is not a member of 'System::Windows::Forms::Form::DialogResult'
+C:\Users\TUF A15\source\repos\Project2\Project2\MyForm4.h(138,31): error C2065: 'OK': undeclared identifier
+  MyForm3.cpp
+C:\Users\TUF A15\source\repos\Project2\Project2\MyForm4.h(137,16): error C2146: syntax error: missing ';' before identifier 'response'
+C:\Users\TUF A15\source\repos\Project2\Project2\MyForm4.h(137,16): error C2065: 'response': undeclared identifier
+C:\Users\TUF A15\source\repos\Project2\Project2\MyForm4.h(138,7): error C2065: 'response': undeclared identifier
+C:\Users\TUF A15\source\repos\Project2\Project2\MyForm4.h(138,31): error C2039: 'OK': is not a member of 'System::Windows::Forms::Form::DialogResult'
+C:\Users\TUF A15\source\repos\Project2\Project2\MyForm4.h(138,31): error C2065: 'OK': undeclared identifier
+  MyForm4.cpp
+C:\Users\TUF A15\source\repos\Project2\Project2\MyForm4.h(137,16): error C2146: syntax error: missing ';' before identifier 'response'
+C:\Users\TUF A15\source\repos\Project2\Project2\MyForm4.h(137,16): error C2065: 'response': undeclared identifier
+C:\Users\TUF A15\source\repos\Project2\Project2\MyForm4.h(138,7): error C2065: 'response': undeclared identifier
+C:\Users\TUF A15\source\repos\Project2\Project2\MyForm4.h(138,31): error C2039: 'OK': is not a member of 'System::Windows::Forms::Form::DialogResult'
+C:\Users\TUF A15\source\repos\Project2\Project2\MyForm4.h(138,31): error C2065: 'OK': undeclared identifier
+  Generating Code...

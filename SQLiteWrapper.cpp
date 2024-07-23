@@ -1,9 +1,12 @@
 #include "SQLiteWrapper.h"
 #include"sqlite3.h"
+const char* dir = "C://Users//TUF A15//source//repos//Project2//database";
+sqlite3* DB;
 
-SQLiteWrapper::SQLiteWrapper(const char* dbPath)
+SQLiteWrapper::SQLiteWrapper(const char* dir)
 {
-    int exit = sqlite3_open(dbPath, &db);
+
+    int exit = sqlite3_open(dir, &DB);
     if (exit) {
         throw gcnew Exception("Error opening database: " + gcnew String(sqlite3_errmsg(db)));
     }
